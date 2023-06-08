@@ -1,0 +1,23 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 18rem);
+  grid-template-rows: 13rem 1fr;
+}
+main .main-community,
+main .main-subscription,
+main .main-us {
+  padding: 2.2rem;
+}
+main .main-community {
+  padding-inline-end: 3rem;
+}
+.main-community {
+  grid-column: 1 / 3;
+}
+.main-community h2 {
+  margin-block-start: 1rem;
+  margin-block-end: 0.5rem;
+}
+.main-us p {
+  margin-block-end: 0;
+}

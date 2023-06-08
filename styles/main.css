@@ -1,0 +1,109 @@
+@import url(./style.css);
+
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background-color: var(--light-gray);
+}
+main {
+  border-radius: 5px;
+  overflow: hidden;
+  margin-block: 4.5rem;
+  margin-inline: 2rem;
+}
+.main-community,
+.main-subscription,
+.main-us {
+  padding: 1.2rem;
+}
+.main-community {
+  background-color: white;
+}
+.main-community h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  /* letter-spacing: -1px; */
+  color: var(--cyan);
+}
+.main-community h2 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.3rem;
+  margin-block: 1.2rem;
+  color: var(--bright-yellow);
+}
+.main-community p {
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 1.5rem;
+  color: var(--grayish-blue);
+  margin-block-end: 1rem;
+}
+.main-subscription {
+  background-color: var(--cyan);
+}
+.main-subscription h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: var(--light-gray);
+}
+.main-subscription h3 {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-block: 0.8rem;
+  color: #79d7d6;
+}
+.main-subscription h3 span {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-inline-end: 0.6rem;
+  color: var(--light-gray);
+}
+.main-subscription p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  margin-block-end: 1.5rem;
+  color: var(--light-gray);
+}
+.main-subscription button {
+  min-width: 100%;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding-block: 0.8rem;
+  background-color: var(--bright-yellow);
+  color: var(--light-gray);
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  cursor: pointer;
+}
+
+.main-us {
+  background-color: #49bebb;
+}
+.main-us h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: var(--light-gray);
+}
+.main-us p {
+  margin-block: 1.2rem;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  color: var(--light-gray);
+}
+.attribution {
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
